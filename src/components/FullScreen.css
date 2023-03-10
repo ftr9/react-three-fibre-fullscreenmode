@@ -1,0 +1,23 @@
+.fullScreenContainer {
+  background-color: transparent;
+  position: absolute;
+  top: 85%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullScreenContainer button {
+  padding: 12px 15px;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: transform 0.2s ease;
+}
+.fullScreenContainer button:active {
+  background-color: rgba(255, 68, 0, 0.727);
+  transform: translateY(2px);
+}
